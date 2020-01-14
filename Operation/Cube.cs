@@ -4,15 +4,15 @@ using System.Text;
 
 namespace Operation
 {
-   public class Square
+   public class Cube
     {
-        public static double Squared(double c)
+        public static double Cubed(double c)
         {
-            return c*c;
+            return c * c * c;
         }
-        public static int Squared(int a)
+        public static int Cubed(int a)
         {
-            return a*a;
+            return a * a * a;
             //return a ^ 2;
         }
     }

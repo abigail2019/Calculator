@@ -14,7 +14,7 @@ namespace Operation.Tests
         private readonly int b = 2;
         private readonly double c = 20.5;
         private readonly double d = 10.0;
-        private readonly double[] arrayA = { 40.0, 2.5, 6.0, 0.5 };
+        private readonly double[] arrayA = { 23.25, 2.5, 6.2 };
         private readonly int[] arrayB = { 40, 2,6, 3 };
 
         [TestMethod()]
@@ -32,7 +32,7 @@ namespace Operation.Tests
         [TestMethod()]
         public void DivsionTest2()
         {
-            Assert.AreEqual(5, Operation.Division.Divsion(arrayA));
+            Assert.AreEqual(1.5, Operation.Division.Divsion(arrayA));
         }
 
         [TestMethod()]

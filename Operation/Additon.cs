@@ -12,10 +12,19 @@ namespace Operation
         {
             return c + d;
         }
-        public static double Sum(double[] ArrayA)
+        public static double Sum(double[] ArrayB)
         {
             double c = 0.0;
-            foreach (double a in ArrayA)
+            foreach (double a in ArrayB)
+            {
+                c = Sum(a, c);
+            }
+            return c;
+        }
+        public static int Sum(int[] ArrayA)
+        {
+            int c = 0;
+            foreach (int a in ArrayA)
             {
                 c = Sum(a, c);
             }

@@ -14,13 +14,13 @@ namespace Operation.Tests
         [TestMethod()]
         public void SquaredTest()
         {
-            Assert.AreEqual(2.7, Operation.Square.Squared(c));
+            Assert.AreEqual(6.25, Operation.Square.Squared(c));
         }
 
         [TestMethod()]
         public void SquaredTest1()
         {
-            Assert.AreEqual(2.7, Operation.Square.Squared(a));
+            Assert.AreEqual(16, Operation.Square.Squared(a));
         }
     }
 }

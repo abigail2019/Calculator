@@ -24,12 +24,12 @@ namespace Operation
             }
             return c;
         }
-        public static int Multiply(int[] ArrayA)
+        public static int Multiply(int[] ArrayB)
         {
-            int c = ArrayA[0];
-            for (int d = 1; d < ArrayA.Length; d++)
+            int c = ArrayB[0];
+            for (int d = 1; d < ArrayB.Length; d++)
             {
-                c = Multiply(c, ArrayA[d]);
+                c = Multiply(c, ArrayB[d]);
             }
             return c;
         }
